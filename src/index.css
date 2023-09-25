@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body {
+  margin: 0;
+  background: url(https://png.pngtree.com/background/20230618/original/pngtree-sci-fi-illustration-neon-glowing-blue-purple-background-3d-render-of-picture-image_3751336.jpg) no-repeat center center/cover fixed ;
+  
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

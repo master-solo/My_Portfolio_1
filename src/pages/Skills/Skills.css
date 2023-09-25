@@ -1,0 +1,17 @@
+.sp {
+  border-radius: 0px;
+  background: #252222;
+  box-shadow: inset 5px 5px 9px #0f0e0e, inset -5px -5px 9px #3b3636;
+}
+
+.ps {
+  border-radius: 0px;
+  background: #252222;
+  box-shadow: inset 5px 5px 9px #0f0e0e, inset -5px -5px 9px #3b3636;
+}
+
+.ps1 {
+  border-radius: 0px;
+  background: #252222;
+  box-shadow: 5px 5px 10px #0f0e0e, -5px -5px 10px #3b3636;
+}

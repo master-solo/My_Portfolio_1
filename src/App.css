@@ -1,0 +1,54 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.font {
+  font-family: "Rubik Iso", cursive, sans-serif;
+}
+
+.bg {
+  background: #0000005e;
+  /* box-shadow: 0 4px 30px #d642421a; */
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid #0000005e;
+}
+
+.tx {
+  color: #ffffff;
+}
+
+.pr {
+  background-color: #007bff;
+}
+
+.pr-tx {
+  color: #007bff;
+}
+
+.se {
+  background-color: #ffa500;
+}
+
+.se-tx {
+  color: #ffa500;
+}
+
+.main {
+  width: 100%;
+}
+
+
+
+@media (min-width: 1024px) {
+  .main {
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+  .mc {
+    background: #ffffff8a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+  }
+}
