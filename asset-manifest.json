@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio_1/static/css/main.b5518260.css",
+    "main.js": "/My_Portfolio_1/static/js/main.3b8ed94d.js",
+    "static/media/me.png": "/My_Portfolio_1/static/media/me.2c8279f0b42ef6ffa009.png",
+    "static/media/Recipes.png": "/My_Portfolio_1/static/media/Recipes.bfe81c3a543988777af2.png",
+    "static/media/p1.png": "/My_Portfolio_1/static/media/p1.3cbbb529f94bfefb30cc.png",
+    "static/media/movie.png": "/My_Portfolio_1/static/media/movie.f0f00a60a623be293685.png",
+    "static/media/Man_programs_on_laptop_while_sitting_in_an_armchair_Illustration-removebg-preview.png": "/My_Portfolio_1/static/media/Man_programs_on_laptop_while_sitting_in_an_armchair_Illustration-removebg-preview.953f91df8fa3bdd2857f.png",
+    "static/media/Weather.png": "/My_Portfolio_1/static/media/Weather.5710e8dc1c16903d2228.png",
+    "static/media/ecommerce.png": "/My_Portfolio_1/static/media/ecommerce.67cf0673c13c8c7f72a6.png",
+    "static/media/todo.png": "/My_Portfolio_1/static/media/todo.f33863c972b84ad1040a.png",
+    "index.html": "/My_Portfolio_1/index.html",
+    "main.b5518260.css.map": "/My_Portfolio_1/static/css/main.b5518260.css.map",
+    "main.3b8ed94d.js.map": "/My_Portfolio_1/static/js/main.3b8ed94d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5518260.css",
+    "static/js/main.3b8ed94d.js"
+  ]
+}
