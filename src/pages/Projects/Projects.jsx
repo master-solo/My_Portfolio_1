@@ -6,6 +6,12 @@ import recipes from "../../images/Recipes.png";
 import weather from "../../images/Weather.png";
 import todo from "../../images/todo.png";
 import p1 from "../../images/p1.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+import { EffectCards } from "swiper/modules";
 
 const project = [
   {
@@ -53,12 +59,35 @@ const project = [
 
 const Projects = () => {
   return (
-    <div id="project" className=" main h-[100vh] ">
+    <div id="project" className=" main lg:h-[100vh] h-fit ">
       <div className=" bg mt-2 h-full ">
         <div className=" text-white text-xl font-extrabold py-1 text-center ">
           <h1>Projects</h1>
         </div>
-        <div>
+        <div className=" block lg:hidden ">
+          <Swiper
+            effect={"cards"}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiper w-[270px] h-[400px] mb-5 "
+          >
+            {project.map((p) => {
+              return (
+                <SwiperSlide className=" bg-[#252222] p-3 rounded-xl relative ">
+                  <div className=" h-full text-white  p-5 rounded-xl flex flex-col gap-3 ">
+                    <img src={p.img} alt={p.name} />
+                    <h1 className=" text-center se-tx " >{p.name}</h1>
+                    <p className=" border p-3 text-center h-full ">{p.description}</p>
+                    <a href={p.link}>
+                      <i className="fa-solid fa-arrow-up-right-from-square fa-shake absolute top-3 right-4 "></i>
+                    </a>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+        </div>
+        <div className=" hidden lg:block ">
           <div className=" grid lg:grid-cols-3 grid-cols-2 grid-rows-3 gap-2 p-2 ">
             {project.map((p) => {
               return (

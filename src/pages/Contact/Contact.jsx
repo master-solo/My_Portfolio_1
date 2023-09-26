@@ -29,9 +29,9 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className=" main h-[100vh] ">
-      <div className=" p-3 bg h-full mt-2 ">
-        <div className=" cm h-full grid place-items-center p-3 ">
+    <div id="contact" className=" main lg:h-[100vh] h-fit ">
+      <div className=" lg:p-3 p-1 bg h-full mt-2 ">
+        <div className=" cm h-full grid place-items-center lg:p-3 p-1 ">
           <div className=" mc lg:h-[90%] w-full h-full ">
             <div className=" h-full flex flex-wrap ">
               <div className=" lg:w-2/5 lg:h-full h-fit w-full flex justify-center items-center p-3 ">
@@ -44,19 +44,19 @@ const Contact = () => {
                     />
                   </div>
                   <div className=" absolute left-2 bottom-3 ">
-                    <div className=" mb-4 px-3 py-4 bg-gray-300 rounded-lg shadow-md ">
+                    <div className=" mb-4 px-3 lg:py-4 py-1 bg-gray-300 rounded-lg shadow-md ">
                       <i class="fa-solid fa-envelope mr-2"></i>
                       <a class="text-indigo-500" href=".">
                         zawwinnaung414@email.com
                       </a>
                     </div>
-                    <div className=" px-3 py-4 bg-gray-300 rounded-lg shadow-md mb-4 ">
+                    <div className=" px-3 lg:py-4 py-1 bg-gray-300 rounded-lg shadow-md mb-4 ">
                       <i class="fa-solid fa-phone"></i>
                       <p class="leading-normal my-5 inline ml-2 ">
                         09-764157671
                       </p>
                     </div>
-                    <div className=" px-3 py-4 bg-gray-300 rounded-lg shadow-md ">
+                    <div className=" px-3 lg:py-4 py-1 bg-gray-300 rounded-lg shadow-md ">
                       <i class="fa-solid fa-location-dot"></i>
                       <p class="leading-normal my-5 inline ml-2 ">
                         65B, 130x131,

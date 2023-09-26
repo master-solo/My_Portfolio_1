@@ -61,7 +61,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div id="skills" className=" main h-[100vh] ">
+    <div id="skills" className=" main lg:h-[100vh] h-fit ">
       <div className=" bg mt-2 h-full p-3 ">
         <div className=" h-full bg-[#252222] flex flex-wrap lg:items-center ">
           <div className=" lg:w-[35%] lg:h-[95%] lg:mt-0 mt-3 w-[90%] h-[50%] sp p-5 ml-5 ">
@@ -88,8 +88,8 @@ const Skills = () => {
               })}
             </div>
           </div>
-          <div className=" lg:ml-[15%] mt-5 lg:mt-0 ml-[12%] lg:w-2/5 w-full h-2/3 ">
-            <div className="  ">
+          <div className=" lg:ml-[15%] mt-5 lg:mt-0 ml-[8%] lg:w-2/5 w-full h-2/3 ">
+            <div className=" mb-5 lg:mb-0 ">
               <div className=" mb-10 text-xl font-bold text-white ">
                 <h1>Professional Skills</h1>
               </div>

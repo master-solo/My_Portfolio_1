@@ -5,16 +5,16 @@ import { Link as LinkScroll } from "react-scroll";
 
 const Home = () => {
   return (
-    <div id="home" className=" main h-[100vh] ">
+    <div id="home" className=" main lg:h-[100vh] h-fit ">
       <div className=" mt-2 bg flex flex-wrap lg:flex-nowrap h-full w-full ">
         <div className=" lg:w-1/2 ">
           <div className=" lg:pl-[30px] pl-[10px] lg:pt-[150px] pt-20px w-full ">
-            <div className=" tx lg:text-[2.8rem] text-[2rem] font-bold mb-2  ">
+            <div className=" tx lg:text-[2.8rem] text-[1.8rem] font-bold mb-2 lg:mt-0 mt-5 ">
               <h1 className=" mb-2 ">Hello!</h1>
               <h1>I'm <span className=" se-tx ">Zaw Win Naung</span></h1>
             </div>
             <div>
-              <h1 className=" tx m-auto font-bold lg:text-[2.8rem] text-[2rem] ">
+              <h1 className=" tx m-auto font-bold lg:text-[2.8rem] text-[1.8rem] ">
                 I'm a{" "}
                 <span style={{ fontWeight: "bold" }} className=" pr-tx ">
                   <Typewriter

@@ -4,10 +4,10 @@ import me from "../../images/me.png"
 
 function About() {
   return (
-    <div id="about" className=" main h-[100vh]  ">
+    <div id="about" className=" main lg:h-[100vh] h-fit ">
       <div className=" bg mt-2 h-full lg:px-[50px] lg:py-[30px] p-2 ">
-        <div className="  flex flex-wrap h-full lg:p-[50px] p-[30px] -z-[2] ">
-          <div className=" object-cover lg:w-[40%] relative ">
+        <div className="  flex flex-wrap h-full lg:p-[50px] p-3 -z-[2] ">
+          <div className=" object-cover lg:w-[40%] mb-5 lg:mb-0 ">
             <img
               src={me}
               alt="me"
@@ -31,7 +31,7 @@ function About() {
               create captivating online experiences that leave a lasting
               impression. Let's build the web together!
             </h4>
-            <div className=" mt-5 text-right font-semibold ">
+            <div className=" mt-5 text-right font-medium ">
               Let's Create Together.... <br/> Zaw Win Naung
             </div>
           </div>
