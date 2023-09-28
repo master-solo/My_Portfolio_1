@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfolio_1/static/css/main.afcba004.css",
-    "main.js": "/My_Portfolio_1/static/js/main.d7407dab.js",
+    "main.css": "/My_Portfolio_1/static/css/main.ba1195b0.css",
+    "main.js": "/My_Portfolio_1/static/js/main.b0d3b6e2.js",
     "static/media/me.png": "/My_Portfolio_1/static/media/me.2c8279f0b42ef6ffa009.png",
     "static/media/Recipes.png": "/My_Portfolio_1/static/media/Recipes.bfe81c3a543988777af2.png",
     "static/media/p1.png": "/My_Portfolio_1/static/media/p1.3cbbb529f94bfefb30cc.png",
@@ -11,11 +11,11 @@
     "static/media/ecommerce.png": "/My_Portfolio_1/static/media/ecommerce.67cf0673c13c8c7f72a6.png",
     "static/media/todo.png": "/My_Portfolio_1/static/media/todo.f33863c972b84ad1040a.png",
     "index.html": "/My_Portfolio_1/index.html",
-    "main.afcba004.css.map": "/My_Portfolio_1/static/css/main.afcba004.css.map",
-    "main.d7407dab.js.map": "/My_Portfolio_1/static/js/main.d7407dab.js.map"
+    "main.ba1195b0.css.map": "/My_Portfolio_1/static/css/main.ba1195b0.css.map",
+    "main.b0d3b6e2.js.map": "/My_Portfolio_1/static/js/main.b0d3b6e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.afcba004.css",
-    "static/js/main.d7407dab.js"
+    "static/css/main.ba1195b0.css",
+    "static/js/main.b0d3b6e2.js"
   ]
 }
