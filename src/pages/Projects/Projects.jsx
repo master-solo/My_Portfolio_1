@@ -64,28 +64,32 @@ const Projects = () => {
         <div className=" text-white text-xl font-extrabold py-1 text-center ">
           <h1>Projects</h1>
         </div>
-        <div className=" block lg:hidden ">
-          <Swiper
-            effect={"cards"}
-            grabCursor={true}
-            modules={[EffectCards]}
-            className="mySwiper w-[270px] h-[400px] mb-5 "
-          >
-            {project.map((p) => {
-              return (
-                <SwiperSlide className=" bg-[#252222] p-3 rounded-xl relative ">
-                  <div className=" h-full text-white  p-5 rounded-xl flex flex-col gap-3 ">
-                    <img src={p.img} alt={p.name} />
-                    <h1 className=" text-center se-tx " >{p.name}</h1>
-                    <p className=" border p-3 text-center h-full ">{p.description}</p>
-                    <a href={p.link}>
-                      <i className="fa-solid fa-arrow-up-right-from-square fa-shake absolute top-3 right-4 "></i>
-                    </a>
-                  </div>
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
+        <div className=" block lg:hidden mt-2 ">
+          <div className=" w-[90%]">
+            <Swiper
+              effect={"cards"}
+              grabCursor={true}
+              modules={[EffectCards]}
+              className="mySwiper w-[65%] h-[340px] mb-5 "
+            >
+              {project.map((p) => {
+                return (
+                  <SwiperSlide className=" bg-[#252222] p-3 rounded-xl relative ">
+                    <div className=" h-full text-white  p-2 rounded-xl flex flex-col gap-3 ">
+                      <img src={p.img} alt={p.name} />
+                      <h1 className=" text-center se-tx ">{p.name}</h1>
+                      <p className=" border p-3 text-center h-full ">
+                        {p.description}
+                      </p>
+                      <a href={p.link}>
+                        <i className="fa-solid fa-arrow-up-right-from-square fa-shake absolute top-3 right-4 "></i>
+                      </a>
+                    </div>
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
         </div>
         <div className=" hidden lg:block ">
           <div className=" grid lg:grid-cols-3 grid-cols-2 grid-rows-3 gap-2 p-2 ">
